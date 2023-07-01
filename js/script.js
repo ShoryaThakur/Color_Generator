@@ -1,10 +1,10 @@
 let containerEL = document.querySelector(".container");
-for (let index = 0; index < 32; index++) {
+for (let index = 0; index < 640; index++) {
   let containEL = document.createElement("div");
   containEL.classList.add("contain");
   containerEL.appendChild(containEL);
   const chars = "0123456789abcdef";
-//   console.log(chars.length);
+  //   console.log(chars.length);
   const colorcodelength = 6;
   let colorcode = "";
   for (let j = 0; j < colorcodelength; j++) {
