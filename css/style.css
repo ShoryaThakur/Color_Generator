@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+body{
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+.container{
+    width: 90vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.contain{
+    width: 250px;
+    height: 100px;
+    margin: 10px;
+    background-color: orange;
+    border: 1px solid black;
+}
